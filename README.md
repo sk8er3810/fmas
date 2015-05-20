@@ -20,3 +20,5 @@ Technical Requirements
   * Use FreeNAS as a starting point but allow other NAS style servers to use this as well  
   * It could start as a FreeNAS plugin  
   * Use a combination of inotify where applicable and polling everywhere else  
+  * The application will be written in Python. The frontend web gui will be assisted by Dojango as I am familiar with Dojo and this is what FreeNAS is using
+  * The application will initially target any Linux and FreeBSD (supporting Python > 2.7) but consideration for Windows and Mac OSX support should be taken into account during design and implementation
